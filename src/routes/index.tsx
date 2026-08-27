@@ -328,7 +328,7 @@ function Intro() {
             Cinco locales, cinco arcos, cinco experiencias.
           </h2>
           <p className="mt-4 max-w-2xl text-pretty text-base text-graphite/70 sm:text-lg">
-            Exclusivos locales gastronómicos de doble altura, donde la
+            Exclusivos locales gastronómicos en doble altura, donde la
             arquitectura, la operación y la identidad se integran para dar vida a
             propuestas con carácter y alma propia, transformando cada espacio en
             una experiencia memorable.
@@ -399,7 +399,7 @@ const JOURNEY = [
     tag: "01 · Fachada",
     title: "Una presencia que transforma la zona",
     body:
-      "Una fachada de doble altura.",
+      "Frente curvo en curtain wall.",
   },
   {
     src: entranceAsset.url,
@@ -441,7 +441,7 @@ const JOURNEY = [
     tag: "07 · Balcón",
     title: "Una pausa en altura",
     body:
-      "La doble altura se abre hacia el balcón, extendiendo la experiencia y creando nuevos momentos de encuentro.",
+      "El doble nivel se abre hacia el balcón, extendiendo la experiencia y creando nuevos momentos de encuentro.",
   },
   {
     src: montaplatosAsset.url,
@@ -571,10 +571,10 @@ function Planos() {
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <p className="eyebrow">Planos</p>
         <h2 className="mt-4 font-display text-[clamp(1.5rem,7.4vw,2.05rem)] leading-[1.08] sm:text-5xl md:text-6xl">
-          Explorá cada local
+          Explorá cada unidad
         </h2>
         <p className="mt-4 text-sm text-graphite/70 sm:text-base">
-          Seleccioná un local para ver sus planos.
+          Seleccioná un local para ver sus plantas y evaluar una posible unificación.
         </p>
 
         {/* Selector sobre la fachada */}
@@ -819,7 +819,7 @@ function Specs() {
         "Módulos full vision",
         "Doble acristalamiento",
         "Iluminación LED inteligente",
-        "Preinstalación de climatización",
+        "Preinstalación de climatización A/C",
       ],
     },
     {
@@ -897,7 +897,7 @@ function Location() {
           </div>
           <div className="flex flex-wrap gap-3">
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=Witcomb+2632%2C+Villa+Ballester"
+              href="https://maps.app.goo.gl/HL2aHAMFKSyhqV3H6"
               target="_blank"
               rel="noreferrer noopener"
               className="btn-capsule bg-forest text-cream hover:bg-forest-deep"
@@ -933,10 +933,10 @@ function Location() {
 /* ---------- FAQ ---------- */
 const FAQS = [
   ["¿Qué propuestas pueden instalarse?", "Cafeterías, restaurantes, bares, heladerías, panaderías y modelos de comida al paso o take away."],
-  ["¿Cómo se organiza cada local?", "Planta baja, cocina, baño accesible, entrepiso con balcón, toilettes y espacios exteriores."],
+  ["¿Cómo se organiza cada local?", "Planta baja, cocina, baño para discapacitados, entrepiso con balcón, toilettes y espacios exteriores."],
   ["¿Qué aporta la doble altura?", "Mayor amplitud, conexión entre niveles y una experiencia espacial con identidad propia."],
   ["¿Cuenta con espacios al aire libre?", "Sí. El proyecto incorpora retiros, patios y balcones destinados a ampliar la experiencia gastronómica."],
-  ["¿Qué infraestructura está prevista?", "Climatización, extracción, sistemas contra incendios, CCTV, energía estabilizada e iluminación inteligente."],
+  ["¿Qué infraestructura está prevista?", "Climatización, extracción de humos, sistemas contra incendios, CCTV, energía estabilizada e iluminación inteligente."],
   ["¿Cómo solicito planos o una visita?", "Contactá a Rocchio Propiedades por WhatsApp para consultar disponibilidad, financiación y visitas."],
 ] as const;
 
