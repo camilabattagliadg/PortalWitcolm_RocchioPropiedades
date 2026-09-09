@@ -342,8 +342,8 @@ function Intro() {
           {[
             ["5", "locales"],
             ["Doble", "altura"],
-            ["185", "m² cubiertos"],
-            ["50", "m² exteriores"],
+            ["205", "m² construidos"],
+            ["60", "m² exteriores"],
           ].map(([big, small]) => (
             <div key={small} className="text-center">
               <div className="font-display text-5xl leading-none text-graphite sm:text-6xl">
